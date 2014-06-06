@@ -1,0 +1,83 @@
+/**********
+General
+**********/
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+/**********
+Header
+**********/
+header {
+	display: block;
+	text-align: center;
+	transition: all .3s linear;
+	-webkit-transition: all .3s linear;
+	border-radius: 15px;
+	padding: 25px;
+}
+
+header p {
+	margin: 0;
+	padding: 0;
+}
+/*
+header:hover {
+	background-color: #DDDDFF;
+}
+*/
+header a {
+	text-decoration: none;
+}
+
+header img {
+	display: inline-block;
+  	float: left;
+  	max-width: 350px;
+  	border-radius: 100%;
+}
+
+.info {
+	display: inline-block;
+}
+
+/**********
+Body
+**********/
+
+section {
+	display: inline-block;
+	width: 50%;
+	float: left;
+	transition: all .3s linear;
+	-webkit-transition: all .3s linear;
+	border-radius: 15px;
+	color: transparent;
+}
+
+section h1 {
+	color: black;
+}
+
+section:hover {
+	background-color: #DDDDFF;
+	color: black;
+}
+
+.topic h1 {
+	text-align: center;
+}
+
+#experience {
+	height: 540px;
+}
+
+/**********
+FOOTER
+**********/
+
+footer {
+	text-align: center;
+	clear: both;
+}
